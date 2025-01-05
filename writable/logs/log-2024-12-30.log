@@ -1,0 +1,897 @@
+DEBUG - 2024-12-30 04:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:47:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:47:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:47:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:47:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:48:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:48:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:48:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:48:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:48:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:49:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:51:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthAPIController.php(53): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthAPIController->login_view()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthAPIController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:53:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:53:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:53:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:53:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:53:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:53:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:53:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:53:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:54:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:54:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:54:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:54:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:54:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2024-12-30 04:54:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/wisata/index.php"
+[Method: GET, Route: admin/wisata]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/wisata/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/wisata/index', [], true)
+ 3 APPPATH\Controllers\WisataController.php(74): view('admin/wisata/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\WisataController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WisataController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:57:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:57:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:57:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:57:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:57:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 04:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:01:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:02:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:02:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:02:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:02:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:26:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:27:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:27:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:27:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:28:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:28:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:28:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 05:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 05:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 05:32:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 06:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 06:25:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 06:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 06:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 08:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 08:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 08:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 08:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 08:57:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:11:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:23:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:37:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:37:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:38:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:38:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:38:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:42:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:44:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:45:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:46:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:49:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:51:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:52:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:53:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:53:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 09:55:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 09:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 09:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 10:05:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 10:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 10:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+DEBUG - 2024-12-30 10:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 10:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 10:52:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\WisataController::$validation is deprecated in APPPATH\Controllers\WisataController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\WisataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
