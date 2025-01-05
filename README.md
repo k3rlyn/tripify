@@ -1,17 +1,17 @@
-# Sistem Manajemen Wahana Dududu World
+# Tripify - Sistem Rekomendasi Tempat Wisata di Bandung Berdasarkan Rating
 
 ## Penjelasan Sistem
 
 
 ## Fitur utama Sistem Tripify
 
-Sistem Tripify juga menyediakan **Chart Wisata** dan **Chart ** yang didapat dari sistem reservasi Takut.com
+Sistem Tripify juga menyediakan **Chart Wisata** 
 
 ### Cara menjalankan sistem
 
  1. Clone repository berikut dengan link berikut ini
     ```sh
-    git clone (https://github.com/k3rlyn/tripify.git)
+    git clone (https://github.com/k3rlyn/tripify-rekomendasi-wisata-bandung.git)
     ```
 2. Pastikan sudah menjalankan atau mengaktifkan start pada **Apache** dan **MySQL** di **XAMPP** 
 3. Buka link **php myadmin** http://localhost/phpmyadmin/ dengan web browser, kemudian buatlah database baru dengan nama tripify dengan click new sehingga terbuat database
