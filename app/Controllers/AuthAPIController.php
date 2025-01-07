@@ -23,8 +23,8 @@ class AuthAPIController extends ResourceController
         $userModel = new UserModel();
 
         $rules = [
-            'username' => 'required|min_length[3]|is_unique[users.username]',
-            'nama' => 'required|min_length[3]|is_unique[users.nama]',
+            'username' => 'required|min_length[3]|is_unique[user.username]',
+            'nama' => 'required|min_length[3]|is_unique[user.nama]',
             'password' => 'required|min_length[6]',
             'confirm_password' => 'required|matches[password]'
         ];

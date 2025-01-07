@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 
 class UserModel extends Model 
 {
-    protected $table = 'users'; // Model ini menangani tabel users dalam database
+    protected $table = 'user'; // Model ini menangani tabel user dalam database
     protected $primaryKey = 'userId'; // Primary key tabel adalah kolom username
     protected $allowedFields = ['username', 'nama', 'password', 'role']; // Field yang diizinkan untuk dimodifikasi: username, nama, password, dan role
     
