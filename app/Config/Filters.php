@@ -35,8 +35,10 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         'admin'         => \App\Filters\AdminFilter::class, // Penambahan filter admin
-        'auth'          => \App\Filters\AuthFilter::class, // Penambahan filter auth
-        'guest'         => \App\Filters\GuestFilter::class,  
+        'auth_kerlyn'   => \App\Filters\AuthFilter::class, // Penambahan filter auth kerlyn
+        'auth_ammar'    => \App\Filters\AuthFilterA::class,
+        'guest'         => \App\Filters\GuestFilter::class, 
+        #'auth'          => \App\Filters\AuthFilter::class, 
         
     ];
 
@@ -71,26 +73,34 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, array<string, string>>>|array<string, list<string>>
      */
+    // public array $globals = [
+    //     'before' => [
+    //         'auth' => [
+    //             'except' => [
+    //                 '/',                // root URL untuk landing page
+    //                 'kerlyn',          // root URL microservice Kerlyn
+    //                 'kerlyn/login',    // login Kerlyn
+    //                 'kerlyn/login_action',
+    //                 'kerlyn/register',
+    //                 'kerlyn/register_action',
+    //                 'kerlyn/logout',
+    //                 'ammar',           // root URL microservice Ammar
+    //                 'ammar/login',     // login Ammar
+    //                 'ammar/login_action',
+    //                 'ammar/logout'
+    //             ]
+    //         ]
+    //     ],
+    //     'after' => [
+    //         'toolbar',
+    //     ],
+    // ];
     public array $globals = [
         'before' => [
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
-            'auth' => [
-                'except' => [
-                    '/',                // root URL untuk halaman login
-                'login',           // view login
-                'login_action',    // proses login
-                'register',        // view register
-                'register_action', // proses register
-                'logout'          // proses logout
-                ]
-            ]
+            // Kosong di sini, hanya hapus bagian 'auth' nya saja
         ],
         'after' => [
             'toolbar',
-            // 'honeypot',
-            // 'secureheaders',
         ],
     ];
 

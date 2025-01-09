@@ -13,9 +13,9 @@ class GuestFilter implements FilterInterface
         if (session()->get('logged_in')) {
             // Jika user sudah login, arahkan berdasarkan role
             if (session()->get('role') === 'admin') {
-                return redirect()->to('admin/wisata');
+                return redirect()->to('/kerlyn/admin/wisata');
             }
-            return redirect()->to('wisata');
+            return redirect()->to('/kerlyn/wisata');
         }
     }
 

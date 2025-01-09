@@ -12,11 +12,11 @@ class AdminFilter implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         if (!session()->get('isLoggedIn')) {
-            return redirect()->to('/login');
+            return redirect()->to('/kerlyn/login');
         }
         
         if (session()->get('role') !== 'admin') {
-            return redirect()->to('/wisata')->with('error', 'Akses ditolak! Hanya admin yang dapat mengakses halaman ini.');
+            return redirect()->to('/kerlyn/wisata')->with('error', 'Akses ditolak! Hanya admin yang dapat mengakses halaman ini.');
         }
     }
 

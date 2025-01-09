@@ -28,7 +28,7 @@ class WisataController extends BaseController
     public function rate($wisataId)
     {
         if (!session()->get('isLoggedIn')) {
-            return redirect()->to('/login');
+            return redirect()->to('/kerlyn/login');
         }
         $data['wisata'] = $this->wisataModel->find($wisataId);
         return view('wisata/rate', $data);
@@ -37,7 +37,7 @@ class WisataController extends BaseController
     public function submitRating()
     {
         if (!session()->get('isLoggedIn')) {
-            return redirect()->to('/login');
+            return redirect()->to('/kerlyn/login');
         }
 
         $wisataId = $this->request->getPost('wisataId');
@@ -57,7 +57,7 @@ class WisataController extends BaseController
         
         $this->wisataModel->updateRating($wisataId, $averageRating, $totalReview);
 
-        return redirect()->to('/wisata')->with('message', 'Rating berhasil diberikan');
+        return redirect()->to('/kerlyn/wisata')->with('message', 'Rating berhasil diberikan');
 
         // validasi rating
         if (!$this->validate([
@@ -99,7 +99,7 @@ class WisataController extends BaseController
         ];
 
         $this->wisataModel->insert($data);
-        return redirect()->to('/admin/wisata')->with('message', 'Wisata berhasil ditambahkan');
+        return redirect()->to('/kerlyn/admin/wisata')->with('message', 'Wisata berhasil ditambahkan');
     }
 
     public function edit($id)
@@ -126,12 +126,12 @@ class WisataController extends BaseController
         ];
 
         $this->wisataModel->update($id, $data);
-        return redirect()->to('/admin/wisata')->with('message', 'Wisata berhasil diupdate');
+        return redirect()->to('/kerlyn/admin/wisata')->with('message', 'Wisata berhasil diupdate');
     }
 
     public function delete($id)
     {
         $this->wisataModel->delete($id);
-        return redirect()->to('/admin/wisata')->with('message', 'Wisata berhasil dihapus');
+        return redirect()->to('/kerlyn/admin/wisata')->with('message', 'Wisata berhasil dihapus');
     }
 }

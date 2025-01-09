@@ -37,7 +37,7 @@ class AuthAPIController extends ResourceController
             $userModel->createUser($username, $nama, $password);
             
             $session->setFlashdata('success', 'Registration successful! Please login.');
-            return redirect()->to('/login');
+            return redirect()->to('/kerlyn/login');
         } else {
             $session->setFlashdata('error', $this->validator->listErrors());
             return redirect()->back()->withInput();
@@ -75,26 +75,26 @@ class AuthAPIController extends ResourceController
                 return $this->redirectBasedOnRole();
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect.');
-                return redirect()->to('/login');
+                return redirect()->to('/kerlyn/login');
             }
         } else {
             $session->setFlashdata('msg', 'Username does not exist.');
-            return redirect()->to('/login');
+            return redirect()->to('/kerlyn/login');
         }
     }
 
     private function redirectBasedOnRole()
     {
         if (session()->get('role') == 'admin') {
-            return redirect()->to('/admin/wisata');
+            return redirect()->to('/kerlyn/admin/wisata');
         }
-        return redirect()->to('/wisata');  // User biasa diarahkan ke wisata
+        return redirect()->to('/kerlyn/wisata');  // User biasa diarahkan ke wisata
     }
 
     public function logout()
     {
         $session = session();
         $session->destroy();
-        return redirect()->to('/login');
+        return redirect()->to('/kerlyn/login');
     }
 }

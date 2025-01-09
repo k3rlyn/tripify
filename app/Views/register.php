@@ -129,7 +129,7 @@
                             </div>
                         <?php endif; ?>
                         
-                        <form action="<?= base_url('register_action') ?>" method="post">
+                        <form action="<?= base_url('kerlyn/register_action') ?>" method="post">
                             <?= csrf_field() ?>
                             <div class="mb-3">
                                 <label for="username" class="form-label">Username</label>
@@ -160,7 +160,7 @@
                         </form>
                         <div class="register-footer">
                             Already have an account? 
-                            <a href="<?= base_url('login') ?>" class="login-link">
+                            <a href="<?= base_url('kerlyn/login') ?>" class="login-link">
                                 Login here
                             </a>
                         </div>
