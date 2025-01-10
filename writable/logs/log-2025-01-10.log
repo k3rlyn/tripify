@@ -2839,3 +2839,87 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 07:52:37 --> CodeIgniter\Session\Exceptions\SessionException: Session: Configured save path "D:\tripify\writable\session" is not writable by the PHP process.
+[Method: GET, Route: ammar]
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 103.
+ 1 SYSTEMPATH\Session\Handlers\FileHandler.php(103): CodeIgniter\Session\Exceptions\SessionException::forWriteProtectedSavePath('D:\\tripify\\writable\\session')
+ 2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->open('D:\\tripify\\writable\\session', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(920): session_start()
+ 4 SYSTEMPATH\Session\Session.php(242): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(710): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 7 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 SYSTEMPATH\Common.php(998): CodeIgniter\Config\BaseService::get('session')
+12 SYSTEMPATH\Common.php(971): service('session')
+13 APPPATH\Controllers\LoginController.php(6): session()
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->indexA()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\tripify\\public\\index.php')
+CRITICAL - 2025-01-10 07:53:56 --> ErrorException: Undefined variable $recommendations
+[Method: GET, Route: ammar/recommendationsA]
+in APPPATH\Views\recommendationsA.php on line 37.
+ 1 APPPATH\Views\recommendationsA.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recommendations', 'D:\\tripify\\app\\Views\\recommendationsA.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\tripify\\app\\Views\\recommendationsA.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('recommendationsA', [], true)
+ 5 APPPATH\Controllers\RecommendationController.php(9): view('recommendationsA')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RecommendationController->indexA()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\tripify\\public\\index.php')
+CRITICAL - 2025-01-10 07:54:02 --> ErrorException: Undefined variable $recommendations
+[Method: GET, Route: ammar/recommendationsA]
+in APPPATH\Views\recommendationsA.php on line 37.
+ 1 APPPATH\Views\recommendationsA.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recommendations', 'D:\\tripify\\app\\Views\\recommendationsA.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\tripify\\app\\Views\\recommendationsA.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('recommendationsA', [], true)
+ 5 APPPATH\Controllers\RecommendationController.php(9): view('recommendationsA')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RecommendationController->indexA()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\tripify\\public\\index.php')
+DEBUG - 2025-01-10 07:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 07:54:10 --> ErrorException: Undefined variable $recommendations
+[Method: GET, Route: ammar/recommendationsA]
+in APPPATH\Views\recommendationsA.php on line 37.
+ 1 APPPATH\Views\recommendationsA.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recommendations', 'D:\\tripify\\app\\Views\\recommendationsA.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\tripify\\app\\Views\\recommendationsA.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('recommendationsA', [], true)
+ 5 APPPATH\Controllers\RecommendationController.php(9): view('recommendationsA')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RecommendationController->indexA()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\tripify\\public\\index.php')
+DEBUG - 2025-01-10 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

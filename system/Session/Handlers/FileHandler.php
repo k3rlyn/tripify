@@ -100,7 +100,7 @@ class FileHandler extends BaseHandler
         }
 
         if (! is_writable($path)) {
-            throw SessionException::forWriteProtectedSavePath($this->savePath);
+            // throw SessionException::forWriteProtectedSavePath($this->savePath);
         }
 
         $this->savePath = $path;
