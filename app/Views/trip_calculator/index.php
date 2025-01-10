@@ -92,5 +92,126 @@
     </div>
 </div>
 
-<!-- Script sama seperti sebelumnya dengan tambahan fungsi save -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Fungsi untuk memuat riwayat perhitungan
+    function loadTripHistory() {
+        fetch('<?= base_url('kerlyn/trip_calculator/history') ?>')
+            .then(response => response.json())
+            .then(result => {
+                const historyDiv = document.getElementById('tripHistory');
+                historyDiv.innerHTML = '';
+                
+                if (result.data && result.data.length > 0) {
+                    result.data.forEach(trip => {
+                        historyDiv.innerHTML += `
+                            <div class="card mb-2">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        ${new Date(trip.tanggalPerjalanan).toLocaleDateString('id-ID')}
+                                    </h6>
+                                    <p class="mb-1">${trip.wisata}</p>
+                                    <p class="mb-1">${trip.mobilSewa}</p>
+                                    <p class="mb-1">${trip.jumlahOrang} orang</p>
+                                    <p class="mb-0">Total: Rp ${new Intl.NumberFormat('id-ID').format(trip.totalBiaya)}</p>
+                                </div>
+                            </div>
+                        `;
+                    });
+                } else {
+                    historyDiv.innerHTML = '<p class="text-muted">Belum ada riwayat perhitungan</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('tripHistory').innerHTML = 
+                    '<p class="text-danger">Gagal memuat riwayat perhitungan</p>';
+            });
+    }
+
+    // Memuat data mobil saat halaman dimuat
+    fetch('http://147.93.31.194:8443/ammar/api/cars')
+        .then(response => response.json())
+        .then(result => {
+            const carSelect = document.getElementById('carSelect');
+            carSelect.innerHTML = '<option value="">Pilih Mobil</option>';
+            
+            if (result.data) {
+                result.data.forEach(car => {
+                    carSelect.innerHTML += `
+                        <option value="${car.id}">
+                            ${car.merk} ${car.jenis} - Kapasitas ${car.kapasitas} orang - Rp ${new Intl.NumberFormat('id-ID').format(car.harga)}/hari
+                        </option>
+                    `;
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('carSelect').innerHTML = 
+                '<option value="">Gagal memuat data mobil</option>';
+        });
+
+    // Handle form submission untuk kalkulasi
+    document.getElementById('calculatorForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(this);
+        fetch('<?= base_url('kerlyn/trip_calculator/calculate') ?>', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.status === 'success') {
+                document.getElementById('result').classList.remove('d-none');
+                document.getElementById('wisataName').textContent = result.data.wisata;
+                document.getElementById('jumlahOrang').textContent = result.data.jumlahOrang;
+                document.getElementById('mobilSewa').textContent = result.data.mobilSewa;
+                document.getElementById('totalTiket').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalTiket);
+                document.getElementById('totalSewa').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalSewa);
+                document.getElementById('totalBiaya').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalBiaya);
+            } else {
+                alert(result.message || 'Gagal melakukan perhitungan');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Terjadi kesalahan saat menghitung biaya');
+        });
+    });
+
+    // Handle save trip button
+    document.getElementById('saveTrip').addEventListener('click', function() {
+        const formData = new FormData(document.getElementById('calculatorForm'));
+        // Tambahkan data total dari hasil perhitungan
+        formData.append('totalTiket', document.getElementById('totalTiket').textContent.replace(/[^\d]/g, ''));
+        formData.append('totalSewa', document.getElementById('totalSewa').textContent.replace(/[^\d]/g, ''));
+        formData.append('totalBiaya', document.getElementById('totalBiaya').textContent.replace(/[^\d]/g, ''));
+
+        fetch('<?= base_url('kerlyn/trip_calculator/save') ?>', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.status === 'success') {
+                alert('Rencana perjalanan berhasil disimpan');
+                // Reload riwayat perhitungan
+                loadTripHistory();
+            } else {
+                alert(result.message || 'Gagal menyimpan rencana perjalanan');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Terjadi kesalahan saat menyimpan rencana perjalanan');
+        });
+    });
+
+    // Load riwayat perhitungan saat halaman dimuat
+    loadTripHistory();
+});
+</script>
+
 <?= $this->endSection() ?>

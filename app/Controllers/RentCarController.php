@@ -18,19 +18,18 @@ class RentCarController extends BaseController
     }
 
     // Tambahkan method baru untuk API
-    public function getCarData($id = null)
+    public function getCars()
     {
-        header('Content-Type: application/json');
-        
-        if ($id === null) {
-            $cars = $this->rentCarModel->findAll();
-        } else {
-            $cars = $this->rentCarModel->find($id);
+        $client = \Config\Services::curlrequest();
+        try {
+            // Update the URL to point to your getCarData endpoint
+            $response = $client->get(base_url('kerlyn/api/cars'));  // Adjust the path to match your route
+            return $this->response->setJSON(json_decode($response->getBody(), true));
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Gagal mengambil data mobil'
+            ])->setStatusCode(500);
         }
-        
-        return $this->response->setJSON([
-            'status' => 'success',
-            'data' => $cars
-        ]);
     }
 }

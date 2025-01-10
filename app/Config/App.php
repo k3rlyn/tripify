@@ -16,8 +16,8 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    #public string $baseURL = 'https://tripify.my.id/';
-    public string $baseURL = 'http://localhost:8080/';
+    public string $baseURL = 'https://tripify.my.id/';
+    #public string $baseURL = 'http://localhost:8080/';
 
 
     /**

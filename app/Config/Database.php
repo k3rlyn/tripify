@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost', # harus diganti juga
-        'username'     => 'root', # harus diganti juga
-        'password'     => '', # harus diganti juga
+        'hostname'     => '127.0.0.1', # harus diganti juga
+        'username'     => 'kerlynnn', # harus diganti juga
+        'password'     => 'kerlyn11', # harus diganti juga
         'database'     => 'tripkuy', 
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
@@ -52,9 +52,9 @@ class Database extends Config
 
     public array $secondary = [
         'DSN'          => '',
-        'hostname'     => 'localhost', # harus diganti juga
-        'username'     => 'root', # harus diganti juga
-        'password'     => '', # harus diganti juga
+        'hostname'     => '127.0.0.1', # harus diganti juga
+        'username'     => 'kerlynn', # harus diganti juga
+        'password'     => 'kerlyn11', # harus diganti juga
         'database'     => 'tripwalk',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',

@@ -49,6 +49,8 @@ $routes->group('kerlyn', function($routes) {
         $routes->get('trip_calculator', 'TripCalculatorController::index');
         $routes->post('trip_calculator/calculate', 'TripCalculatorController::calculate');
         $routes->post('trip_calculator/save', 'TripCalculatorController::saveCalculation');
+        $routes->get('trip_calculator/getCars', 'TripCalculatorController::getCars');  
+        $routes->get('api/cars/(:num)?', 'RentCarController::getCarData/$1');         
         
         // Admin routes
         $routes->group('admin', ['filter' => 'auth_kerlyn', 'admin'], function($routes) {
