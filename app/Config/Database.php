@@ -26,10 +26,36 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'tripify',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'hostname'     => 'localhost', # harus diganti juga
+        'username'     => 'root', # harus diganti juga
+        'password'     => '', # harus diganti juga
+        'database'     => 'tripkuy', 
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8mb4',
+        'DBCollat'     => 'utf8mb4_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 3306,
+        'numberNative' => false,
+        'dateFormat'   => [
+            'date'     => 'Y-m-d',
+            'datetime' => 'Y-m-d H:i:s',
+            'time'     => 'H:i:s',
+        ],
+    ];
+
+    public array $secondary = [
+        'DSN'          => '',
+        'hostname'     => 'localhost', # harus diganti juga
+        'username'     => 'root', # harus diganti juga
+        'password'     => '', # harus diganti juga
+        'database'     => 'tripwalk',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

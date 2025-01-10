@@ -84,7 +84,8 @@ class WisataController extends BaseController
         // menambahkan validasi
         $rules = [
             'namaWisata' => 'required|min_length[3]',
-            'lokasi' => 'required|min_length[5]'
+            'lokasi' => 'required|min_length[5]',
+            'hargaTiket' => 'required|numeric|greater_than_equal_to[0]'
         ];
 
         if (!$this->validate($rules)) {
@@ -94,6 +95,7 @@ class WisataController extends BaseController
         $data = [
             'namaWisata' => $this->request->getPost('namaWisata'),
             'lokasi' => $this->request->getPost('lokasi'),
+            'hargaTiket' => $this->request->getPost('hargaTiket'),
             'wisataRating' => 0,
             'totalReview' => 0
         ];
@@ -113,7 +115,8 @@ class WisataController extends BaseController
         // Menambahkan validasi
         $rules = [
             'namaWisata' => 'required|min_length[3]',
-            'lokasi' => 'required|min_length[5]'
+            'lokasi' => 'required|min_length[5]',
+            'hargaTiket' => 'required|numeric|greater_than_equal_to[0]'
         ];
 
         if (!$this->validate($rules)) {
@@ -122,7 +125,8 @@ class WisataController extends BaseController
 
         $data = [
             'namaWisata' => $this->request->getPost('namaWisata'),
-            'lokasi' => $this->request->getPost('lokasi')
+            'lokasi' => $this->request->getPost('lokasi'),
+            'hargaTiket' => $this->request->getPost('hargaTiket')
         ];
 
         $this->wisataModel->update($id, $data);

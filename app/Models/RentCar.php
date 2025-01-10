@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class RentCar extends Model
 {
+    protected $DBGroup = 'secondary';
     protected $table = 'rentcar';
     protected $primaryKey = 'car_id';
     protected $allowedFields = ['merk', 'jenis', 'harga', 'kapasitas', 'vendor_id'];

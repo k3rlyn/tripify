@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2>Kelola Data Wisata</h2>
-        <a href="<?= base_url('admin/wisata/create') ?>" class="btn btn-success">
+        <a href="<?= base_url('kerlyn/admin/wisata/create') ?>" class="btn btn-success">
             <i class="fas fa-plus"></i> Tambah Wisata
         </a>
     </div>
@@ -24,6 +24,9 @@
                     <p class="card-text">
                         <i class="fas fa-map-marker-alt text-primary"></i> <?= $tempat['lokasi'] ?>
                     </p>
+                    <p class="card-text">
+                        <i class="fas fa-ticket-alt text-success"></i> Rp <?= number_format($tempat['hargaTiket'], 0, ',', '.') ?>
+                    </p>
                     <div class="mb-3">
                         <span class="badge bg-primary">
                             <?= number_format($tempat['wisataRating'], 1) ?> <i class="fas fa-star text-warning"></i>
@@ -31,11 +34,11 @@
                         <small class="text-muted">(<?= $tempat['totalReview'] ?> reviews)</small>
                     </div>
                     <div class="btn-group">
-                        <a href="<?= base_url('admin/wisata/edit/' . $tempat['wisataId']) ?>" 
+                        <a href="<?= base_url('kerlyn/admin/wisata/edit/' . $tempat['wisataId']) ?>" 
                            class="btn btn-warning btn-sm">
                             <i class="fas fa-edit"></i> Edit
                         </a>
-                        <a href="<?= base_url('admin/wisata/delete/' . $tempat['wisataId']) ?>" 
+                        <a href="<?= base_url('kerlyn/admin/wisata/delete/' . $tempat['wisataId']) ?>" 
                            class="btn btn-danger btn-sm"
                            onclick="return confirm('Yakin hapus data ini?')">
                             <i class="fas fa-trash"></i> Hapus

@@ -14,7 +14,7 @@
                         </div>
                     <?php endif; ?>
 
-                    <form action="<?= base_url('admin/wisata/update/' . $wisata['wisataId']) ?>" method="post">
+                    <form action="<?= base_url('kerlyn/admin/wisata/update/' . $wisata['wisataId']) ?>" method="post">
                         <?= csrf_field() ?>
                         <div class="mb-3">
                             <label class="form-label">Nama Wisata</label>
@@ -28,11 +28,21 @@
                                       required><?= old('lokasi', $wisata['lokasi']) ?></textarea>
                         </div>
 
+                        <div class="mb-3">
+                            <label for="hargaTiket" class="form-label">Harga Tiket</label>
+                            <div class="input-group">
+                                <span class="input-group-text">Rp</span>
+                                <input type="number" class="form-control" id="hargaTiket" name="hargaTiket" 
+                                       value="<?= old('hargaTiket') ?>" 
+                                       min="0" step="1000" required>
+                            </div>
+                        </div>
+
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-success">
                                 <i class="fas fa-save"></i> Update
                             </button>
-                            <a href="<?= base_url('admin/wisata') ?>" class="btn btn-light">
+                            <a href="<?= base_url('kerlyn/admin/wisata') ?>" class="btn btn-light">
                                 <i class="fas fa-arrow-left"></i> Kembali
                             </a>
                         </div>

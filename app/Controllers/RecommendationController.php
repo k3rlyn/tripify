@@ -6,6 +6,6 @@ class RecommendationController extends BaseController
 {
     public function indexA()
     {
-        return view('recommendations');
+        return view('recommendationsA');
     }
 }

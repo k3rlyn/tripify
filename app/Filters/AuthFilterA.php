@@ -11,7 +11,7 @@ class AuthFilterA implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         if (!session()->has('num_user')) {
-            return redirect()->to('/ammar/login')->with('error', 'You must be logged in to access this page.');
+            return redirect()->to('/ammar/loginA')->with('error', 'You must be logged in to access this page.');
         }
     }
 

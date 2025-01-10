@@ -17,7 +17,7 @@
                         </div>
                     <?php endif; ?>
 
-                    <form action="<?= base_url('wisata/submit-rating') ?>" method="post">
+                    <form action="<?= base_url('kerlyn/wisata/submit-rating') ?>" method="post">
                         <?= csrf_field() ?>
                         <input type="hidden" name="wisataId" value="<?= $wisata['wisataId'] ?>">
                         

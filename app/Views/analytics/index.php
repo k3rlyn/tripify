@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fungsi untuk memuat data
     async function loadData() {
         try {
-            const response = await fetch('/analytics/getAnalyticsData');
+            const response = await fetch('analytics/getAnalyticsData');
             const data = await response.json();
             
             // Buat chart untuk top rated places
