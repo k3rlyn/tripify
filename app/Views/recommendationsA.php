@@ -28,8 +28,8 @@
 
     <div class="container mt-5">
         <h1 class="mb-4">Rekomendasi Tempat Wisata di Bandung</h1>
-        <p>Berikut adalah daftar tempat wisata Bandung yang direkomendasikan berdasarkan data analitik.</p>
-        
+        <p>Berikut adalah daftar tempat wisata Bandung yang direkomendasikan berdasarkan data analitik dari layanan <strong>TripKuy</strong>.</p>
+
         <!-- Top Rated Places -->
         <div class="card mb-4">
             <div class="card-body">
@@ -44,6 +44,11 @@
                 <h5 class="card-title">5 Tempat Wisata Terpopuler (Berdasarkan Total Review)</h5>
                 <ul id="mostReviewedPlaces" class="list-group"></ul>
             </div>
+        </div>
+
+        <!-- Explore More Button -->
+        <div class="text-center mt-4">
+            <a href="/kerlyn" class="btn btn-primary btn-lg">Jelajahi Lebih Lanjut</a>
         </div>
     </div>
 
@@ -81,11 +86,11 @@
             } catch (error) {
                 console.error('Error fetching recommendations:', error);
                 const container = document.querySelector('.container');
-                container.innerHTML += `
-                    <div class="alert alert-danger mt-3">
-                        Gagal memuat data rekomendasi. Silakan coba lagi nanti.
-                    </div>
-                `;
+                // container.innerHTML += `
+                //     <div class="alert alert-danger mt-3">
+                //         Gagal memuat data rekomendasi. Silakan coba lagi nanti.
+                //     </div>
+                // `;
             }
         });
     </script>
@@ -117,6 +122,17 @@
 
         .list-group-item .badge {
             font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 10px 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
         }
     </style>
 </body>
