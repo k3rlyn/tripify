@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Services</title>
+    <title>Welcome to Our Services - Tripify</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
     <div class="min-h-screen flex items-center justify-center">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h1 class="text-4xl font-bold text-gray-900 mb-4">Welcome to Our Services</h1>
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Welcome to Our Services - Tripify</h1>
                 <p class="text-lg text-gray-600">Choose which service you'd like to access</p>
             </div>
             
@@ -43,7 +43,7 @@
             </div>
 
             <div class="mt-12 text-center text-gray-600">
-                <p>© 2024 Your Company Name. All rights reserved.</p>
+                <p>© 2024 Tripify. All rights reserved.</p>
             </div>
         </div>
     </div>
