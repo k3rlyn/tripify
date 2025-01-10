@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Tripify</title>
+    <title>Dashboard - TripKuy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -141,7 +141,7 @@
     <nav class="navbar">
         <div class="container-fluid">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Tripify</a>
+            <a class="navbar-brand" href="#">TripKuy</a>
             
             <!-- Welcome text and Hamburger -->
             <div class="nav-content">
@@ -154,7 +154,7 @@
             <!-- Collapsible content -->
             <div class="navbar-collapse" id="navbarContent">
                 <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/wisata' : 'kerlyn/wisata') ?>">Daftar Wisata</a>
-                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip' : 'kerlyn/trip/') ?>">Jadwal Rencana Perjalanan</a>
+                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip/' : 'kerlyn/trip') ?>">Jadwal Rencana Perjalanan</a>
                 <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip_calculator' : 'kerlyn/trip_calculator/') ?>">Kalkulator Biaya Perjalanan</a>
                 <a class="nav-link" href="<?= base_url('kerlyn/analytics') ?>">Analytics</a>
                 <a href="<?= base_url('kerlyn/logout') ?>" class="btn-logout mt-3">Logout</a>

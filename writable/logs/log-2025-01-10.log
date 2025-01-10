@@ -2084,3 +2084,93 @@ in SYSTEMPATH\Filters\Filters.php on line 197.
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:41:46 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:42:00 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:42:39 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:42:43 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:44:03 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip/]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
+CRITICAL - 2025-01-10 06:47:25 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: kerlyn/admin/trip/]
+in APPPATH\Views\admin\trip\index.php on line 21.
+ 1 APPPATH\Views\admin\trip\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\app\\Views\\admin\\trip\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/trip/index', [], true)
+ 5 APPPATH\Controllers\TripController.php(396): view('admin/trip/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TripController->adminIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TripController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
