@@ -131,7 +131,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Memuat data mobil saat halaman dimuat
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     fetch('<?= base_url('ammar/api/cars') ?>')
+=======
+    fetch('http://147.93.31.194:8443/ammar/api/cars')
+>>>>>>> Stashed changes
 =======
     fetch('http://147.93.31.194:8443/ammar/api/cars')
 >>>>>>> Stashed changes

@@ -16,6 +16,7 @@ class RentCarController extends BaseController
         return view('carlist', $data);
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public function getCarData($id = null)
     {
         try {
@@ -55,6 +56,12 @@ class RentCarController extends BaseController
     // Tambahkan method baru untuk API
     public function getCars()
     {
+=======
+
+    // Tambahkan method baru untuk API
+    public function getCars()
+    {
+>>>>>>> Stashed changes
         $client = \Config\Services::curlrequest();
         try {
             // Update the URL to point to your getCarData endpoint
@@ -64,6 +71,9 @@ class RentCarController extends BaseController
             return $this->response->setJSON([
                 'status' => 'error',
                 'message' => 'Gagal mengambil data mobil'
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             ])->setStatusCode(500);
         }

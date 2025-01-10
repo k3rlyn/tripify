@@ -3014,6 +3014,7 @@ DEBUG - 2025-01-10 08:03:35 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-01-10 08:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 DEBUG - 2025-01-10 08:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-10 08:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-10 08:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -3042,11 +3043,17 @@ DEBUG - 2025-01-10 08:20:57 --> Session: Class initialized using 'CodeIgniter\Se
 WARNING - 2025-01-10 08:20:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\TripController::$validation is deprecated in APPPATH\Controllers\TripController.php on line 20.
  1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TripController->__construct()
 >>>>>>> Stashed changes
+=======
+DEBUG - 2025-01-10 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 08:20:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\TripController::$validation is deprecated in APPPATH\Controllers\TripController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TripController->__construct()
+>>>>>>> Stashed changes
  2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
  7 SYSTEMPATH\rewrite.php(44): require_once('D:\\tripify\\public\\index.php')
@@ -3121,6 +3128,8 @@ WARNING - 2025-01-10 08:08:46 --> [DEPRECATED] Creation of dynamic property App\
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
  7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kerly\\Downloads\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\Tugas-Besar-TST-II3160-K02-Kelompok-10\\public\\index.php')
 DEBUG - 2025-01-10 08:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-10 08:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -3131,6 +3140,9 @@ DEBUG - 2025-01-10 08:52:50 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-01-10 08:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-10 08:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
