@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Memuat data mobil saat halaman dimuat
-    fetch('http://147.93.31.194:8443/ammar/api/cars')
+    fetch('<?= base_url('ammar/api/cars') ?>')
         .then(response => response.json())
         .then(result => {
             const carSelect = document.getElementById('carSelect');

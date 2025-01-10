@@ -1,130 +1,217 @@
-<?php
-namespace App\Controllers;
-use App\Models\WisataModel;
-use App\Models\TripCalculatorModel;
+<?= $this->extend('layout/template') ?>
 
-class TripCalculatorController extends BaseController
-{
-    protected $wisataModel;
-    protected $tripCalculatorModel;
+<?= $this->section('content') ?>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Kalkulator Biaya Perjalanan</h3>
+                    
+                    <form id="calculatorForm">
+                        <div class="mb-3">
+                            <label class="form-label">Pilih Tempat Wisata</label>
+                            <select class="form-select" name="wisataId" required>
+                                <?php foreach ($wisata as $w): ?>
+                                <option value="<?= $w['wisataId'] ?>">
+                                    <?= $w['namaWisata'] ?> - Rp <?= number_format($w['hargaTiket'], 0, ',', '.') ?>/orang
+                                </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
 
-    public function __construct()
-    {
-        $this->wisataModel = new WisataModel();
-        $this->tripCalculatorModel = new TripCalculatorModel();
+                        <div class="mb-3">
+                            <label class="form-label">Jumlah Orang</label>
+                            <input type="number" class="form-control" name="jumlahOrang" min="1" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Pilih Mobil</label>
+                            <select class="form-select" name="carId" id="carSelect" required>
+                                <option value="">Memuat data mobil...</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Tanggal Rencana Perjalanan</label>
+                            <input type="date" class="form-control" name="tanggalPerjalanan" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-calculator"></i> Hitung Biaya
+                        </button>
+                    </form>
+
+                    <div id="result" class="mt-4 d-none">
+                        <h4>Rincian Biaya:</h4>
+                        <table class="table table-bordered">
+                            <tr>
+                                <td width="200">Tempat Wisata</td>
+                                <td id="wisataName"></td>
+                            </tr>
+                            <tr>
+                                <td>Jumlah Orang</td>
+                                <td id="jumlahOrang"></td>
+                            </tr>
+                            <tr>
+                                <td>Mobil Sewa</td>
+                                <td id="mobilSewa"></td>
+                            </tr>
+                            <tr>
+                                <td>Total Tiket Masuk</td>
+                                <td id="totalTiket"></td>
+                            </tr>
+                            <tr>
+                                <td>Biaya Sewa Mobil</td>
+                                <td id="totalSewa"></td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td><strong>Total Biaya</strong></td>
+                                <td><strong id="totalBiaya"></strong></td>
+                            </tr>
+                        </table>
+                        
+                        <button id="saveTrip" class="btn btn-success">
+                            <i class="fas fa-save"></i> Simpan Rencana Perjalanan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Riwayat Perhitungan</h4>
+                    <div id="tripHistory">
+                        <!-- Riwayat perhitungan akan ditampilkan di sini -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Fungsi untuk memuat riwayat perhitungan
+    function loadTripHistory() {
+        fetch('<?= base_url('kerlyn/trip_calculator/history') ?>')
+            .then(response => response.json())
+            .then(result => {
+                const historyDiv = document.getElementById('tripHistory');
+                historyDiv.innerHTML = '';
+                
+                if (result.data && result.data.length > 0) {
+                    result.data.forEach(trip => {
+                        historyDiv.innerHTML += `
+                            <div class="card mb-2">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        ${new Date(trip.tanggalPerjalanan).toLocaleDateString('id-ID')}
+                                    </h6>
+                                    <p class="mb-1">${trip.wisata}</p>
+                                    <p class="mb-1">${trip.mobilSewa}</p>
+                                    <p class="mb-1">${trip.jumlahOrang} orang</p>
+                                    <p class="mb-0">Total: Rp ${new Intl.NumberFormat('id-ID').format(trip.totalBiaya)}</p>
+                                </div>
+                            </div>
+                        `;
+                    });
+                } else {
+                    historyDiv.innerHTML = '<p class="text-muted">Belum ada riwayat perhitungan</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('tripHistory').innerHTML = 
+                    '<p class="text-danger">Gagal memuat riwayat perhitungan</p>';
+            });
     }
 
-    public function index()
-    {
-        $data['wisata'] = $this->wisataModel->findAll();
-        return view('trip_calculator/index', $data);  
-    }
-
-    public function calculate()
-    {
-        $wisataId = $this->request->getPost('wisataId');
-        $jumlahOrang = $this->request->getPost('jumlahOrang');
-        $carId = $this->request->getPost('carId');
-        
-        // Ambil data wisata
-        $wisata = $this->wisataModel->find($wisataId);
-        
-        // Fetch data mobil dari TripWalk API
-        $client = \Config\Services::curlrequest();
-        try {
-            $response = $client->get('http://localhost:8080/ammar/api/cars/' . $carId);
-            $result = json_decode($response->getBody(), true);
-            $car = $result['data'];
+    // Memuat data mobil saat halaman dimuat
+    fetch('https://tripify.my.id/ammar/api/cars')
+        .then(response => response.json())
+        .then(result => {
+            const carSelect = document.getElementById('carSelect');
+            carSelect.innerHTML = '<option value="">Pilih Mobil</option>';
             
-            // Hitung total biaya
-            $totalTiket = $wisata['hargaTiket'] * $jumlahOrang;
-            $totalSewa = $car['harga'];  // harga sewa per hari
-            $totalBiaya = $totalTiket + $totalSewa;
+            if (result.data) {
+                result.data.forEach(car => {
+                    carSelect.innerHTML += `
+                        <option value="${car.id}">
+                            ${car.merk} ${car.jenis} - Kapasitas ${car.kapasitas} orang - Rp ${new Intl.NumberFormat('id-ID').format(car.harga)}/hari
+                        </option>
+                    `;
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('carSelect').innerHTML = 
+                '<option value="">Gagal memuat data mobil</option>';
+        });
 
-            return $this->response->setJSON([
-                'status' => 'success',
-                'data' => [
-                    'wisata' => $wisata['namaWisata'],
-                    'jumlahOrang' => $jumlahOrang,
-                    'mobilSewa' => $car['merk'] . ' ' . $car['jenis'],
-                    'totalTiket' => $totalTiket,
-                    'totalSewa' => $totalSewa,
-                    'totalBiaya' => $totalBiaya,
-                    'wisataId' => $wisataId,  // Tambahkan untuk keperluan save
-                    'carId' => $carId         // Tambahkan untuk keperluan save
-                ]
-            ]);
-
-        } catch (\Exception $e) {
-            return $this->response->setJSON([
-                'status' => 'error',
-                'message' => 'Gagal mengambil data mobil'
-            ])->setStatusCode(500);
-        }
-    }
-
-    public function saveCalculation() 
-    {
-        $userId = session()->get('userId');
+    // Handle form submission untuk kalkulasi
+    document.getElementById('calculatorForm').addEventListener('submit', function(e) {
+        e.preventDefault();
         
-        // Ambil data mobil dari API TripWalk
-        $client = \Config\Services::curlrequest();
-        $carId = $this->request->getPost('carId');
-        
-        try {
-            $response = $client->get('http://localhost:8080/ammar/api/cars/' . $carId);
-            $result = json_decode($response->getBody(), true);
-            $car = $result['data'];
+        const formData = new FormData(this);
+        fetch('<?= base_url('kerlyn/trip_calculator/calculate') ?>', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.status === 'success') {
+                document.getElementById('result').classList.remove('d-none');
+                document.getElementById('wisataName').textContent = result.data.wisata;
+                document.getElementById('jumlahOrang').textContent = result.data.jumlahOrang;
+                document.getElementById('mobilSewa').textContent = result.data.mobilSewa;
+                document.getElementById('totalTiket').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalTiket);
+                document.getElementById('totalSewa').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalSewa);
+                document.getElementById('totalBiaya').textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(result.data.totalBiaya);
+            } else {
+                alert(result.message || 'Gagal melakukan perhitungan');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Terjadi kesalahan saat menghitung biaya');
+        });
+    });
 
-            $data = [
-                'userId' => $userId,
-                'wisataId' => $this->request->getPost('wisataId'),
-                'carId' => $carId,
-                'carMerk' => $car['merk'],
-                'carJenis' => $car['jenis'],
-                'carKapasitas' => $car['kapasitas'],
-                'carHarga' => $car['harga'],
-                'jumlahOrang' => $this->request->getPost('jumlahOrang'),
-                'tanggalPerjalanan' => $this->request->getPost('tanggalPerjalanan'),
-                'totalTiket' => $this->request->getPost('totalTiket'),
-                'totalSewa' => $this->request->getPost('totalSewa'),
-                'totalBiaya' => $this->request->getPost('totalBiaya'),
-                'status' => 'planned'
-            ];
-        
-            $this->tripCalculatorModel->insert($data);
-            return $this->response->setJSON([
-                'status' => 'success',
-                'message' => 'Rencana perjalanan berhasil disimpan'
-            ]);
+    // Handle save trip button
+    document.getElementById('saveTrip').addEventListener('click', function() {
+        const formData = new FormData(document.getElementById('calculatorForm'));
+        // Tambahkan data total dari hasil perhitungan
+        formData.append('totalTiket', document.getElementById('totalTiket').textContent.replace(/[^\d]/g, ''));
+        formData.append('totalSewa', document.getElementById('totalSewa').textContent.replace(/[^\d]/g, ''));
+        formData.append('totalBiaya', document.getElementById('totalBiaya').textContent.replace(/[^\d]/g, ''));
 
-        } catch (\Exception $e) {
-            return $this->response->setJSON([
-                'status' => 'error',
-                'message' => 'Gagal menyimpan rencana perjalanan'
-            ])->setStatusCode(500);
-        }
-    }
+        fetch('<?= base_url('kerlyn/trip_calculator/save') ?>', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.status === 'success') {
+                alert('Rencana perjalanan berhasil disimpan');
+                // Reload riwayat perhitungan
+                loadTripHistory();
+            } else {
+                alert(result.message || 'Gagal menyimpan rencana perjalanan');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Terjadi kesalahan saat menyimpan rencana perjalanan');
+        });
+    });
 
-    // Menampilkan riwayat perhitungan untuk user
-    public function history()
-    {
-        $userId = session()->get('userId');
-        $data['calculations'] = $this->tripCalculatorModel->getUserCalculations($userId);
-        return view('trip_calculator/history', $data);
-    }
+    // Load riwayat perhitungan saat halaman dimuat
+    loadTripHistory();
+});
+</script>
 
-    // Untuk admin
-    public function statistics() 
-    {
-        if (session()->get('role') !== 'admin') {
-            return redirect()->to('/kerlyn/admin/trip_statistics/');
-        }
-
-        $data['totalCalculations'] = $this->tripCalculatorModel->countAll();
-        $data['popularDestinations'] = $this->tripCalculatorModel->getPopularDestinations();
-        $data['monthlyStats'] = $this->tripCalculatorModel->getMonthlyStatistics();
-        
-        return view('admin/calculator_statistics', $data);
-    }
-}
+<?= $this->endSection() ?>
