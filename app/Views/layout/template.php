@@ -154,8 +154,8 @@
             <!-- Collapsible content -->
             <div class="navbar-collapse" id="navbarContent">
                 <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/wisata' : 'kerlyn/wisata') ?>">Daftar Wisata</a>
-                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip/' : 'kerlyn/trip') ?>">Jadwal Rencana Perjalanan</a>
-                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip_calculator' : 'kerlyn/trip_calculator/') ?>">Kalkulator Biaya Perjalanan</a>
+                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip' : 'kerlyn/trip') ?>">Jadwal Rencana Perjalanan</a>
+                <a class="nav-link" href="<?= base_url(session()->get('role') == 'admin' ? 'kerlyn/admin/trip_statistics' : 'kerlyn/trip_calculator') ?>">Kalkulator Biaya Perjalanan</a>
                 <a class="nav-link" href="<?= base_url('kerlyn/analytics') ?>">Analytics</a>
                 <a href="<?= base_url('kerlyn/logout') ?>" class="btn-logout mt-3">Logout</a>
             </div>

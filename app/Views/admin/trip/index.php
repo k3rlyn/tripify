@@ -18,7 +18,7 @@
                     <h5 class="card-title"><?= $trip['namaTrip'] ?></h5>
                     <p class="card-text">
                         <i class="fas fa-user text-primary"></i> 
-                        <?= $trip['nama'] ?> <!-- Nama user -->
+                        <?= $trip['namaTrip'] ?> <!-- Nama user -->
                     </p>
                     <p class="card-text">
                         <i class="fas fa-calendar text-primary"></i> 

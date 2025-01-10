@@ -385,7 +385,7 @@ class TripController extends BaseController
         return redirect()->to('/kerlyn/trip')->with('message', 'Trip berhasil dihapus');
     }
 
-        public function adminIndex()
+    public function adminIndex()
     {
         if (!session()->get('isLoggedIn') || session()->get('role') !== 'admin') {
             return redirect()->to('/kerlyn/login');

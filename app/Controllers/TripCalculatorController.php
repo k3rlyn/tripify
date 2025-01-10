@@ -118,13 +118,13 @@ class TripCalculatorController extends BaseController
     public function statistics() 
     {
         if (session()->get('role') !== 'admin') {
-            return redirect()->to('/kerlyn/');
+            return redirect()->to('/kerlyn/admin/trip_statistics/');
         }
 
         $data['totalCalculations'] = $this->tripCalculatorModel->countAll();
         $data['popularDestinations'] = $this->tripCalculatorModel->getPopularDestinations();
         $data['monthlyStats'] = $this->tripCalculatorModel->getMonthlyStatistics();
         
-        return view('admin/trip_statistics', $data);
+        return view('admin/calculator_statistics', $data);
     }
 }

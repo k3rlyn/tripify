@@ -6,26 +6,11 @@ use CodeIgniter\Model;
 
 class TripCalculatorModel extends Model
 {
-    protected $table = 'trip_calculations';  // Nama tabel di database
+    protected $table = 'trip_calculations';
     protected $primaryKey = 'id';
-    protected $returnType = 'array';
-    protected $useTimestamps = true;  // Menggunakan created_at dan updated_at
-    
-    protected $allowedFields = [
-        'userId',
-        'wisataId', 
-        'carId',
-        'carMerk',
-        'carJenis',
-        'carKapasitas',
-        'carHarga',
-        'jumlahOrang',
-        'tanggalPerjalanan',
-        'totalTiket',
-        'totalSewa',
-        'totalBiaya',
-        'status' // Tracking status rencana
-    ];
+    protected $allowedFields = ['userId', 'wisataId', 'carId', 'carMerk', 'carJenis', 
+                              'carKapasitas', 'carHarga', 'jumlahOrang', 'tanggalPerjalanan', 
+                              'totalTiket', 'totalSewa', 'totalBiaya', 'status'];
 
     // Untuk mendapatkan total perhitungan yang dilakukan
     public function countAll()
@@ -36,9 +21,9 @@ class TripCalculatorModel extends Model
     // Untuk mendapatkan destinasi wisata terpopuler
     public function getPopularDestinations()
     {
-        return $this->select('wisataId, COUNT(*) as total')
+        return $this->select('trip_calculations.wisataId, wisata.namaWisata, COUNT(*) as total')
                     ->join('wisata', 'wisata.wisataId = trip_calculations.wisataId')
-                    ->groupBy('wisataId')
+                    ->groupBy('trip_calculations.wisataId, wisata.namaWisata')
                     ->orderBy('total', 'DESC')
                     ->limit(5)
                     ->find();

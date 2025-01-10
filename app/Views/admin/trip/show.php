@@ -1,4 +1,3 @@
-<!-- app/Views/admin/trip/show.php -->
 <?= $this->extend('layout/template') ?>
 
 <?= $this->section('content') ?>
@@ -7,7 +6,7 @@
         <div class="card-body">
             <h2 class="card-title"><?= $trip['namaTrip'] ?></h2>
             <p class="card-text">
-                <i class="fas fa-user text-primary"></i> <?= $trip['nama'] ?> <!-- Nama user -->
+                <i class="fas fa-user text-primary"></i> <?= $trip['namaTrip'] ?> <!-- Nama user -->
             </p>
             <p class="card-text">
                 <i class="fas fa-calendar"></i> 
@@ -22,7 +21,7 @@
     foreach ($details as $detail) {
         $groupedDetails[date('Y-m-d', strtotime($detail['visit_date']))][] = $detail;
     }
-    ksort($groupedDetails);
+    sort($groupedDetails);
     ?>
 
     <?php foreach ($groupedDetails as $date => $dayDetails): ?>
